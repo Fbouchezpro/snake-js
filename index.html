@@ -9,7 +9,11 @@
 </head>
 
 <body>
-    <h1>MY FIRST SNAKE</h1>
+    <h1>🐍MY FIRST SNAKE🐍</h1>
+    <div class="snakegame">
+    <div class="game">
+    <label for="player">Player's Name</label><input id="player" type="text" value="" placeholder="ex:Barbu">
+    
     <p id="playerScore">Player: 0</p>
     <canvas id="game" width="600" height="600"></canvas>
     <br>
@@ -17,10 +21,14 @@
     <button id="restart-btn">New Game</button>
     <br>
     <button id="hard-mode">Hard mode</button>
-
-    <aside>
-        
+    </div>
+    <aside class="keyBtn">
+        <h4>Use your arrow-key!</h4>
+        <h5>Don't try to eat yourself?</h5>
+        <p>Can you beat @the "Barbu"???</p>
+       <img src="./assets/arrow-key.jpg" alt="Arrow Key"> 
     </aside>
+</div>
 </body>
 <script src="JS/classe/Food.js"></script>
 <script src="JS/classe/snake.js"></script>

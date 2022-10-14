@@ -1,14 +1,37 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    background-color:lightgray ;
 }
+
 
 #game {
     background-color: black;
 }
 
+.game{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.snakegame{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.keyBtn img{
+    height: 25vh;
+    width: 25vw;
+}
+
+.keyBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
